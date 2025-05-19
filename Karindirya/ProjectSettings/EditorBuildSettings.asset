@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: a24b6f4f0e47b584c961513d08f6bd1d
+  - enabled: 1
+    path: Assets/Scenes/RestaurantScene.unity
+    guid: 55eda89f6103fa840b26114162ff2f2d
+  - enabled: 1
+    path: Assets/Scenes/DishesMenu.unity
+    guid: 598597a528d29bd4681ac33082c64cf3
+  - enabled: 1
+    path: Assets/Scenes/FridgeMenu.unity
+    guid: d22dceb3e778ceb45b38f95937fe5c12
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
