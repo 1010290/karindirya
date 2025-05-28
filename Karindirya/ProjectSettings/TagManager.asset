@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Sprites
   - 
   - 
   - 
@@ -49,6 +49,12 @@ TagManager:
     locked: 0
   - name: New Layer 3
     uniqueID: 993654781
+    locked: 0
+  - name: Canvas
+    uniqueID: 799420967
+    locked: 0
+  - name: Sprites
+    uniqueID: 2630846239
     locked: 0
   m_RenderingLayers:
   - Default
