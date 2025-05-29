@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.InputSystem.Composites;
 
 public class DishControlScript : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class DishControlScript : MonoBehaviour
     public Transform menudoObj;
     public Transform plasticObj;
     public Transform plateObj;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,18 +33,37 @@ public class DishControlScript : MonoBehaviour
         {
             if (GMObjScript.inventorySlot1 == "empty")
             {
-                Instantiate(plateObj, new Vector2(-1.25f, -4.06f), plateObj.rotation);
+                Instantiate(plateObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
                 GMObjScript.inventorySlot1 = "plate";
             }
             else if (GMObjScript.inventorySlot2 == "empty")
             {
-                Instantiate(plateObj, new Vector2(1.11f, -4.06f), plateObj.rotation);
+                Instantiate(plateObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
                 GMObjScript.inventorySlot2 = "plate";
             }
             else if (GMObjScript.inventorySlot3 == "empty")
             {
-                Instantiate(plateObj, new Vector2(3.37f, -4.06f), plateObj.rotation);
+                Instantiate(plateObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
                 GMObjScript.inventorySlot3 = "plate";
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "PlasticTakeOut")
+        {
+            if (GMObjScript.inventorySlot1 == "empty")
+            {
+                Instantiate(plasticObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "plastic";
+            }
+            else if (GMObjScript.inventorySlot2 == "empty")
+            {
+                Instantiate(plasticObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "plastic";
+            }
+            else if (GMObjScript.inventorySlot3 == "empty")
+            {
+                Instantiate(plasticObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "plastic";
             } //Close if-else statements
         }
 

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8970805202622600510}
   - component: {fileID: 3865330853602090176}
   - component: {fileID: -8958100810166772677}
-  - component: {fileID: 4970786858436923940}
+  - component: {fileID: -1489398637482870253}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   occupiedSlot: 100
---- !u!114 &4970786858436923940
+--- !u!114 &-1489398637482870253
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,8 +148,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 944469875370046455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e30410baff25a5f4196e8b7239761b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  occupiedSlot: 0
-  mouseControlled: n
+  arrozCaldoObj: {fileID: 0}
+  tinolaObj: {fileID: 0}
+  sisigObj: {fileID: 0}
+  adoboObj: {fileID: 0}
+  lumpiaObj: {fileID: 0}
+  menudoObj: {fileID: 0}
+  plasticObj: {fileID: 0}
+  plateObj: {fileID: 0}

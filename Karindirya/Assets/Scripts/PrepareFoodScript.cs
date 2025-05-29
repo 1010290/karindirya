@@ -20,7 +20,7 @@ public class PrepareFoodScript : MonoBehaviour
 
     void OnMouseDown()
     {
-        //TO EDIT
+        /*
         if (GMObjScript.inventorySlot1 == "fullplate")
         {
             GMObjScript.inventorySlot1 = "servableDish";
@@ -36,5 +36,7 @@ public class PrepareFoodScript : MonoBehaviour
             GMObjScript.inventorySlot3 = "servableDish";
             occupiedSlot = 3;
         }
+        */
+        
     }
 }
