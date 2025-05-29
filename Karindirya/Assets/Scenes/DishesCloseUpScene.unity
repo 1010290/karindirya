@@ -442,14 +442,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &96969131
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,14 +690,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &321737221
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,14 +938,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &588835584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,14 +1429,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &1069746952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,14 +1764,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &1391318348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,14 +2010,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &1399786977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,14 +2258,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1 &1557224138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,14 +2689,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrozCaldoObj: {fileID: 9126948817893371859, guid: 0c6502b633f633c4b9b3aed323bb66e9, type: 3}
-  tinolaObj: {fileID: 2927257952609106330, guid: 186ea93777da0404387ca38adce79b52, type: 3}
-  sisigObj: {fileID: 4911629176913269520, guid: 8a238ca94c871ad4bad57798b782296b, type: 3}
-  adoboObj: {fileID: 5005539430066397727, guid: a86559c3ba4acc54e968303e4491fe73, type: 3}
-  lumpiaObj: {fileID: 8449823834249846459, guid: 8c01cb765e282054d83f742ebdf17baa, type: 3}
-  menudoObj: {fileID: 7719830001677955970, guid: 6273c3bdc619b8643a9bb1ca753c925b, type: 3}
-  plasticObj: {fileID: 6720466640918383853, guid: 773364767c28e064fbfa83869797f303, type: 3}
-  plateObj: {fileID: 7833528733771329907, guid: a2969469d55afa340b6eb3d4727ea064, type: 3}
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750, guid: d7d8ed24730519549a5e789fbda31556, type: 3}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

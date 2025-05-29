@@ -13,6 +13,12 @@ public class DishControlScript : MonoBehaviour
     public Transform menudoObj;
     public Transform plasticObj;
     public Transform plateObj;
+    public Transform arrozCaldoTakeOutObj;
+    public Transform tinolaTakeOutObj;
+    public Transform sisigTakeOutObj;
+    public Transform adoboTakeOutObj;
+    public Transform lumpiaTakeOutObj;
+    public Transform menudoTakeOutObj;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -67,26 +73,289 @@ public class DishControlScript : MonoBehaviour
             } //Close if-else statements
         }
 
-
-
         if (gameObject.name == "TinolaObj")
         {
             if (GMObjScript.inventorySlot1 == "plate")
             {
                 Instantiate(tinolaObj, new Vector2(-1.25f, -4.06f), tinolaObj.rotation);
-                GMObjScript.inventorySlot1 = "fullplate";
+                GMObjScript.inventorySlot1 = "toServe";
                 GMObjScript.selectedSlot = 1;
             }
             else if (GMObjScript.inventorySlot2 == "plate")
             {
                 Instantiate(tinolaObj, new Vector2(1.11f, -4.06f), tinolaObj.rotation);
-                GMObjScript.inventorySlot2 = "fullplate";
+                GMObjScript.inventorySlot2 = "toServe";
                 GMObjScript.selectedSlot = 2;
             }
             else if (GMObjScript.inventorySlot3 == "plate")
             {
                 Instantiate(tinolaObj, new Vector2(3.37f, -4.06f), tinolaObj.rotation);
-                GMObjScript.inventorySlot3 = "fullplate";
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "ArrozCaldoObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plate")
+            {
+                Instantiate(arrozCaldoObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plate")
+            {
+                Instantiate(arrozCaldoObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plate")
+            {
+                Instantiate(arrozCaldoObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "SisigObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plate")
+            {
+                Instantiate(sisigObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plate")
+            {
+                Instantiate(sisigObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plate")
+            {
+                Instantiate(sisigObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "AdoboObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plate")
+            {
+                Instantiate(adoboObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plate")
+            {
+                Instantiate(adoboObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plate")
+            {
+                Instantiate(adoboObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "LumpiaObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plate")
+            {
+                Instantiate(lumpiaObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plate")
+            {
+                Instantiate(lumpiaObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plate")
+            {
+                Instantiate(lumpiaObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "MenudoObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plate")
+            {
+                Instantiate(menudoObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plate")
+            {
+                Instantiate(menudoObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plate")
+            {
+                Instantiate(menudoObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "tinolaObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plastic")
+            {
+                Instantiate(tinolaTakeOutObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plastic")
+            {
+                Instantiate(tinolaTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plastic")
+            {
+                Instantiate(tinolaTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "ArrozCaldoObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plastic")
+            {
+                Instantiate(arrozCaldoTakeOutObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plastic")
+            {
+                Instantiate(arrozCaldoTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plastic")
+            {
+                Instantiate(arrozCaldoTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "SisigObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plastic")
+            {
+                Instantiate(sisigTakeOutObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plastic")
+            {
+                Instantiate(sisigTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plastic")
+            {
+                Instantiate(sisigTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "AdoboObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plastic")
+            {
+                Instantiate(lumpiaTakeOutObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plastic")
+            {
+                Instantiate(lumpiaTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plastic")
+            {
+                Instantiate(lumpiaTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "LumpiaObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plastic")
+            {
+                Instantiate(lumpiaTakeOutObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plastic")
+            {
+                Instantiate(lumpiaTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plastic")
+            {
+                Instantiate(lumpiaTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "MenudoObj")
+        {
+            if (GMObjScript.inventorySlot1 == "plastic")
+            {
+                Instantiate(menudoTakeOutObj, new Vector2(-1.25f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot1 = "toServe";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "plastic")
+            {
+                Instantiate(menudoTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "toServe";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "plastic")
+            {
+                Instantiate(menudoTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "toServe";
+                GMObjScript.selectedSlot = 3;
+            } //Close if-else statements
+        }
+
+        if (gameObject.name == "PlateSisig(Clone)")
+        {
+            if (GMObjScript.inventorySlot1 == "toServe")
+            {
+                //transform.position = new Vector3(-22.72f, -1.16f);
+                //transform.position = Vector3.Slerp(-22.72f, -1.16f, 10f * Time.deltaTime);
+                GMObjScript.inventorySlot1 = "plate";
+                GMObjScript.selectedSlot = 1;
+            }
+            else if (GMObjScript.inventorySlot2 == "toServe")
+            {
+                Instantiate(menudoTakeOutObj, new Vector2(1.11f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot2 = "plate";
+                GMObjScript.selectedSlot = 2;
+            }
+            else if (GMObjScript.inventorySlot3 == "toServe")
+            {
+                Instantiate(menudoTakeOutObj, new Vector2(3.37f, -4.06f), Quaternion.identity);
+                GMObjScript.inventorySlot3 = "plate";
                 GMObjScript.selectedSlot = 3;
             } //Close if-else statements
         }
