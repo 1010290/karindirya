@@ -341,7 +341,7 @@ public class DishControlScript : MonoBehaviour
         {
             if (GMObjScript.inventorySlot1 == "toServe")
             {
-                //transform.position = new Vector3(-22.72f, -1.16f);
+                transform.position = new Vector3(-22.72f, -1.16f);
                 //transform.position = Vector3.Slerp(-22.72f, -1.16f, 10f * Time.deltaTime);
                 GMObjScript.inventorySlot1 = "plate";
                 GMObjScript.selectedSlot = 1;

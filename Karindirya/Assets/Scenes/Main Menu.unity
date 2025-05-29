@@ -450,7 +450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -336, y: -100}
+  m_AnchoredPosition: {x: -208, y: -100}
   m_SizeDelta: {x: 265.6836, y: 59.0376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &663651564
@@ -570,7 +570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335, y: -180}
+  m_AnchoredPosition: {x: -207, y: -180}
   m_SizeDelta: {x: 265.6836, y: 59.0376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809218581
@@ -702,7 +702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -334, y: -19}
+  m_AnchoredPosition: {x: -208, y: -19}
   m_SizeDelta: {x: 265.6836, y: 59.0376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920261816
@@ -758,7 +758,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: RestaurantScene
+          m_StringArgument: DishesCloseUpScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &920261817
