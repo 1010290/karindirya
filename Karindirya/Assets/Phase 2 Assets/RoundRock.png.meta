@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RoundRock_0: 3969197145955096555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
