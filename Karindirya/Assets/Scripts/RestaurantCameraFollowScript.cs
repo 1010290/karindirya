@@ -15,3 +15,6 @@ public class RestaurantCameraFollowScript : MonoBehaviour
         transform.position = Vector3.Slerp(transform.position, newPosition, FollowSpeed * Time.deltaTime);
     }
 }
+
+
+

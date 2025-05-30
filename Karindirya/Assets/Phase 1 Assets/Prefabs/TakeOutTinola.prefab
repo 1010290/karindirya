@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2767179572100794364
+--- !u!1 &5453840325400857217
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8602828168397118007}
-  - component: {fileID: 2307791900156426650}
-  - component: {fileID: 7260616549645177733}
-  - component: {fileID: 7350504236246764191}
-  - component: {fileID: -111704407814208940}
+  - component: {fileID: 6860739366940542750}
+  - component: {fileID: 858972538718310663}
+  - component: {fileID: 8986646844076112975}
+  - component: {fileID: 2972473824495412215}
   m_Layer: 0
   m_Name: TakeOutTinola
   m_TagString: Untagged
@@ -20,13 +19,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8602828168397118007
+--- !u!4 &6860739366940542750
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767179572100794364}
+  m_GameObject: {fileID: 5453840325400857217}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4380188, y: -1.7741699, z: 0}
@@ -35,13 +34,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2307791900156426650
+--- !u!212 &858972538718310663
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767179572100794364}
+  m_GameObject: {fileID: 5453840325400857217}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -90,13 +89,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &7260616549645177733
+--- !u!60 &8986646844076112975
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767179572100794364}
+  m_GameObject: {fileID: 5453840325400857217}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -215,30 +214,29 @@ PolygonCollider2D:
       - {x: 0.21, y: -2.4099998}
       - {x: 0.64, y: -2.3999999}
   m_UseDelaunayMesh: 0
---- !u!114 &7350504236246764191
+--- !u!114 &2972473824495412215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767179572100794364}
+  m_GameObject: {fileID: 5453840325400857217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e30410baff25a5f4196e8b7239761b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff862ff8546649448fac84a0efd9097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  occupiedSlot: 0
-  mouseControlled: n
---- !u!114 &-111704407814208940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767179572100794364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19d86d9ba81912d41a1438679eb307f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  occupiedSlot: 100
+  arrozCaldoObj: {fileID: 3675747291881767182, guid: 6148679a261b1324eaf3722195a555da, type: 3}
+  tinolaObj: {fileID: 5469199464180445328, guid: 75f4ab0ae291ab84483eea6fe65634d0, type: 3}
+  sisigObj: {fileID: 3490689880516495987, guid: 35df04f44b44b9d46aa933a209351470, type: 3}
+  adoboObj: {fileID: 8476508172290149119, guid: b1c7d18c3c1b02a41b56a9b141a578f6, type: 3}
+  lumpiaObj: {fileID: 1923527158458123550, guid: 13ea55b9d4495be47849f97400453b11, type: 3}
+  menudoObj: {fileID: 8902106773335845315, guid: 522e632c599cd1e4ba144d3e4ff7350c, type: 3}
+  plasticObj: {fileID: 7495557667032256618, guid: f31be5058250abc4095f677f5d96cf0e, type: 3}
+  plateObj: {fileID: 3353936639803949713, guid: bf2dde36bb021bd41a2aa69d063d2614, type: 3}
+  arrozCaldoTakeOutObj: {fileID: 5017240977978757311, guid: aa2b422025758344aa34f71902bb3aa3, type: 3}
+  tinolaTakeOutObj: {fileID: 6860739366940542750}
+  sisigTakeOutObj: {fileID: 3812651293452506451, guid: 46e385398f2f2d64a9e3429682cec989, type: 3}
+  adoboTakeOutObj: {fileID: 3164565015056629808, guid: 903781861ce428c42befd127eb63589f, type: 3}
+  lumpiaTakeOutObj: {fileID: 4293425627010994959, guid: 7de115a0e0971164c830d296c4793ac9, type: 3}
+  menudoTakeOutObj: {fileID: 8929582563779612545, guid: 117fa772e69712d4795d3eb48755e512, type: 3}
