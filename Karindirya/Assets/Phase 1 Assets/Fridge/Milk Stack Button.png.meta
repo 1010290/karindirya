@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Milk Stack Button_0: 4623161243417642176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

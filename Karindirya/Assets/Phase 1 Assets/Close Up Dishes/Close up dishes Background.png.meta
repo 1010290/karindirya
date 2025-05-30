@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Close up dishes Background_0: 3213105113774835102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

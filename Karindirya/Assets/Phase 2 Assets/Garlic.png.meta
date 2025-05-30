@@ -103,10 +103,10 @@ TextureImporter:
       name: Garlic_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 46
-        width: 489
-        height: 424
+        x: 2
+        y: 38
+        width: 506
+        height: 437
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garlic_0: -912498489993581376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cola Button_0: 4476698260154295649
+      Cola Button_1: -5251278521489759980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
