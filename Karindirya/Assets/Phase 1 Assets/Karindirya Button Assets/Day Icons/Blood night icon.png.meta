@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blood night icon_0: 8791263003275365090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

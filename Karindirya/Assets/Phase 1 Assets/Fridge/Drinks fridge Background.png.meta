@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Drinks fridge Background_0: -6484438330028133879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Convo Panel Icon_0: -7949564934532208745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

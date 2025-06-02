@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Game Char no BG_0: 3133389411462126846
+      Game Char no BG_1: 4002553676569999124
+      Game Char no BG_2: -927669668552342705
+      Game Char no BG_3: -2713092348421192945
+      Game Char no BG_4: 834036627975114496
+      Game Char no BG_5: 5280479319115503583
+      Game Char no BG_6: 2654082077751210695
+      Game Char no BG_7: 5800972335410679953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

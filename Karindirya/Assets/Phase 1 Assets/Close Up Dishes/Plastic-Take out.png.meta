@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plastic-Take out_0: 311661061102603404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

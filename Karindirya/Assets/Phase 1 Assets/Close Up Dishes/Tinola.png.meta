@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tinola_0: -8374415975028491327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

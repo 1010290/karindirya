@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KarinderyaBG01_0: 9068778771101604696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

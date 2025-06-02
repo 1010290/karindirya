@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Customer Happiness Scale_0: -5244356113685986319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

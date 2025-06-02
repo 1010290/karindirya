@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blood sunset icon_0: 8552851494124487576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

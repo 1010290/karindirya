@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fridge_Button-removebg-preview_0: 8696394236316801984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

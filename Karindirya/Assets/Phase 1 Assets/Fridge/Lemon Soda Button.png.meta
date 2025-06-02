@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lemon Soda Button_0: 3462142457642529138
+      Lemon Soda Button_1: -3322903899601423433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lumpia_0: -1757343339745202129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

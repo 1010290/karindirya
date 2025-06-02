@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Milk Icon_0: -8946211038247098722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
