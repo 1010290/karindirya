@@ -22,6 +22,7 @@ public class DishControlScript : MonoBehaviour
     Vector2 counterSlot1 = new Vector2(-22.72f, -1.16f);
     Vector2 counterSlot2 = new Vector2(-18.26f, -1.16f);
     Vector2 counterSlot3 = new Vector2(-13.67f, -1.16f);
+    Vector2 orderReceiver = new Vector2(-13.46f, 1.707504f);
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -670,6 +671,9 @@ public class DishControlScript : MonoBehaviour
             {
                 transform.position = counterSlot1;
                 GMObjScript.inventorySlot1 = "empty";
+                GameObject menudoTakeOut = GameObject.Find("TakeOutMenudo(Clone)");
+                menudoTakeOut.tag = "Servable";
+                menudoTakeOut.name = "menudoTakeOut";
                 GMObjScript.selectedSlot = 1;
             }
             else if (GMObjScript.inventorySlot2 == "toServe")
@@ -684,6 +688,18 @@ public class DishControlScript : MonoBehaviour
                 GMObjScript.inventorySlot3 = "empty";
                 GMObjScript.selectedSlot = 3;
             } //Close if-else statements
+        }
+
+        if (gameObject.tag == "ReadyToServe")
+        {
+            Debug.Log("ReadyToServe");
+            transform.position = orderReceiver;
+        }
+        else if (gameObject.tag == "Servable")
+        {
+            GameObject menudoTakeOut = GameObject.Find("menudoTakeOut");
+            Debug.Log("Servable");
+            menudoTakeOut.tag = "ReadyToServe";
         }
     }
 }
